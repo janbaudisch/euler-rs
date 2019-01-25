@@ -1,6 +1,7 @@
 use common::input;
 
 fn main() {
+    println!("[INPUT] calculate until:");
     let input = u64::from_str_radix(&input::read_line(), 10).expect("Could not parse input!");
     let mut multiples: Vec<u64> = Vec::new();
 
