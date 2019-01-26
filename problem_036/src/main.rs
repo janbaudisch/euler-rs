@@ -15,7 +15,7 @@ fn main() {
     }
 
     println!(
-        "[SOLUTION] sum of palindromic numbers in base 10 and 2 under {}: {}",
+        "[SOLUTION] sum of numbers palindromic in base 10 and 2 under {}: {}",
         limit, sum
     );
 }
