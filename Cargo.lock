@@ -10,6 +10,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "problem_10"
+version = "0.1.0"
+dependencies = [
+ "common 0.1.0",
+]
+
+[[package]]
 name = "problem_2"
 version = "0.1.0"
 dependencies = [
