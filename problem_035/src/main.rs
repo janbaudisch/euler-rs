@@ -9,7 +9,7 @@ fn main() {
 
     for n in 2..limit {
         if n.is_prime() {
-            let mut digits = n.to_string().chars().into_iter().collect::<Vec<char>>();
+            let mut digits = n.to_string().chars().collect::<Vec<char>>();
 
             let mut flag = true;
 
