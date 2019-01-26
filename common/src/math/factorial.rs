@@ -12,7 +12,7 @@ macro_rules! impl_factorial {
                     0 | 1 => return 1,
                     2 => return 2,
                     _ => {
-                        for n in 2..(self + 1) as u64 {
+                        for n in 2..u64::from(self + 1) {
                             result *= n;
                         }
                     }
@@ -28,4 +28,3 @@ impl_factorial!(u8);
 impl_factorial!(u16);
 impl_factorial!(u32);
 impl_factorial!(u64);
-impl_factorial!(u128);
