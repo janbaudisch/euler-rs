@@ -27,7 +27,7 @@ macro_rules! impl_is_prime {
     ($type: ident) => {
         impl IsPrime for $type {
             fn is_prime(self) -> bool {
-                for n in 2..self {
+                for n in 2..=self / 2 {
                     if self % n == 0 {
                         return false;
                     }
