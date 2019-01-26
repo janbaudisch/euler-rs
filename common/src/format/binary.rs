@@ -25,10 +25,10 @@ macro_rules! impl_to_binary {
                     match remainder {
                         0 => bits.push(Bit::Zero),
                         1 => bits.push(Bit::One),
-                        _ => bits.push(Bit::Zero),
+                        _ => bits.push(Bit::Zero)
                     }
 
-                    n = n / 2;
+                    n /= 2;
                 }
 
                 bits.reverse();
