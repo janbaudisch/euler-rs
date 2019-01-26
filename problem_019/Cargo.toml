@@ -1,8 +1,7 @@
 [package]
-name = "problem_2"
+name = "problem_019"
 version = "0.1.0"
 authors = ["Jan Baudisch <dev@baudisch.xyz>"]
 edition = "2018"
 
 [dependencies]
-common = { path = "../common" }

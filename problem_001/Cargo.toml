@@ -1,5 +1,5 @@
 [package]
-name = "problem_7"
+name = "problem_001"
 version = "0.1.0"
 authors = ["Jan Baudisch <dev@baudisch.xyz>"]
 edition = "2018"

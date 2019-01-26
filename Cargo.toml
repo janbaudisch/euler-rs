@@ -1,14 +1,14 @@
 [workspace]
 members = [
     "common",
-    "problem_1",
-    "problem_2",
-    "problem_4",
-    "problem_5",
-    "problem_6",
-    "problem_7",
-    "problem_10",
-    "problem_19"
+    "problem_001",
+    "problem_002",
+    "problem_004",
+    "problem_005",
+    "problem_006",
+    "problem_007",
+    "problem_010",
+    "problem_019"
 ]
 
 [profile.release]
