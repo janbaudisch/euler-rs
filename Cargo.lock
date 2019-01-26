@@ -62,3 +62,10 @@ dependencies = [
  "common 0.1.0",
 ]
 
+[[package]]
+name = "problem_036"
+version = "0.1.0"
+dependencies = [
+ "common 0.1.0",
+]
+
