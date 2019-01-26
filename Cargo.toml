@@ -8,7 +8,8 @@ members = [
     "problem_006",
     "problem_007",
     "problem_010",
-    "problem_019"
+    "problem_019",
+    "problem_035"
 ]
 
 [profile.release]
