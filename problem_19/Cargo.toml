@@ -5,4 +5,3 @@ authors = ["Jan Baudisch <dev@baudisch.xyz>"]
 edition = "2018"
 
 [dependencies]
-common = { path = "../common" }
