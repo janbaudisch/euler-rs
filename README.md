@@ -1,6 +1,6 @@
 [![Build Status][build-img]][build-url]
 
-# euler
+# euler-rs
 
 > My implementation of [Project Euler][project-euler-url] in Rust.
 
