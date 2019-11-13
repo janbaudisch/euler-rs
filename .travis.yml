@@ -17,6 +17,6 @@ jobs:
     - stage: format
       rust: nightly
       install:
-        - rustup component add rustfmt || cargo install --git https://github.com/rust-lang/rustfmt --force --bin rustfmt
+        - rustup component add rustfmt
       script:
         - cargo fmt --all -- --check
