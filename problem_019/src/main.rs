@@ -7,7 +7,7 @@ fn main() {
         weekday: Weekday::Monday,
         day: 1,
         month: Month::January,
-        year: 1900
+        year: 1900,
     };
 
     let mut count = 0;

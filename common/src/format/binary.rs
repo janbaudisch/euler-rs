@@ -1,7 +1,7 @@
 #[derive(Clone, Copy, PartialEq)]
 pub enum Bit {
     One,
-    Zero
+    Zero,
 }
 
 pub trait ToBinary {
@@ -25,7 +25,7 @@ macro_rules! impl_to_binary {
                     match remainder {
                         0 => bits.push(Bit::Zero),
                         1 => bits.push(Bit::One),
-                        _ => bits.push(Bit::Zero)
+                        _ => bits.push(Bit::Zero),
                     }
 
                     n /= 2;

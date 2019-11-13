@@ -2,7 +2,7 @@ pub struct Date {
     pub weekday: Weekday,
     pub day: u8,
     pub month: Month,
-    pub year: u16
+    pub year: u16,
 }
 
 impl Date {
@@ -36,7 +36,7 @@ impl Date {
             weekday,
             day,
             month,
-            year
+            year,
         }
     }
 }
@@ -49,7 +49,7 @@ pub enum Weekday {
     Thursday,
     Friday,
     Saturday,
-    Sunday
+    Sunday,
 }
 
 impl Weekday {
@@ -61,7 +61,7 @@ impl Weekday {
             Weekday::Thursday => Weekday::Friday,
             Weekday::Friday => Weekday::Saturday,
             Weekday::Saturday => Weekday::Sunday,
-            Weekday::Sunday => Weekday::Monday
+            Weekday::Sunday => Weekday::Monday,
         }
     }
 }
@@ -79,7 +79,7 @@ pub enum Month {
     September,
     October,
     November,
-    December
+    December,
 }
 
 impl Month {
@@ -96,7 +96,7 @@ impl Month {
             Month::September => Month::October,
             Month::October => Month::November,
             Month::November => Month::December,
-            Month::December => Month::January
+            Month::December => Month::January,
         }
     }
 
