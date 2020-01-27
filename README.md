@@ -4,6 +4,6 @@
 
 > My implementation of [Project Euler][project-euler-url] in Rust.
 
-[build-img]: https://travis-ci.com/janbaudisch/euler-rs.svg?branch=master
-[build-url]: https://travis-ci.com/janbaudisch/euler-rs
+[build-img]: https://builds.sr.ht/~janbaudisch/euler-rs.svg
+[build-url]: https://builds.sr.ht/~janbaudisch/euler-rs
 [project-euler-url]: https://projecteuler.net

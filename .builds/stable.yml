@@ -1,0 +1,16 @@
+image: alpine/latest
+package:
+  - alpine-sdk
+  - curl
+sources:
+  - https://git.sr.ht/~janbaudisch/euler-rs
+tasks:
+  - setup: curl -sSf https://sh.rustup.rs | sh -s -- -y --default-toolchain stable
+  - build: |
+      . $HOME/.cargo/env
+      cd euler-rs
+      cargo build --verbose --all
+  - test: |
+      . $HOME/.cargo/env
+      cd euler-rs
+      cargo test --verbose --all
